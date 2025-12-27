@@ -3,12 +3,12 @@
   "short_name": "LEGEND",
   "icons": [
     {
-      "src": "/assets/favicon.png",
+      "src": "/assets/img/favicon.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/assets/apple-touch-icon.png",
+      "src": "/assets/img/logo.png",
       "sizes": "180x180",
       "type": "image/png"
     }

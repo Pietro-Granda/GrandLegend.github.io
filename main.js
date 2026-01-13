@@ -260,7 +260,7 @@
       const subject = encodeURIComponent(`[GrandLegend Tech] New project inquiry — ${type}`); // Linha de lógica JavaScript
       const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nCompany: ${company || "-"}\nProject type: ${type}\nBudget: ${budget}\n\nMessage:\n${message}\n`); // Linha de lógica JavaScript
 
-      window.location.href = `mailto:hello@grandlegend.tech?subject=${subject}&body=${body}`; // Envia via mailto abrindo o cliente de e-mail
+      window.location.href = `mailto:boscaratopietro@gmail.com?subject=${subject}&body=${body}`; // Envia via mailto abrindo o cliente de e-mail
 
       if (status) status.textContent = "Opening your email client… If it does not open, please email hello@grandlegend.tech."; // Condicional de segurança/controle de fluxo
       form.reset(); // Linha de lógica JavaScript

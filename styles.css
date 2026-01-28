@@ -13,7 +13,7 @@
   --shadow:0 16px 60px rgba(0,0,0,.45); /* Ajusta --shadow */
   --radius:18px; /* Ajusta --radius */
   --max:1120px; /* Ajusta --max */
-  --focus:0 0 0 3px rgba(168,85,247,.35); /* Ajusta --focus */
+  --focus:0 0 0 3px #a855f759; /* Ajusta --focus */
 } /* Finaliza bloco de estilos */
 
 *{box-sizing:border-box} /* Linha de estilo */
@@ -22,7 +22,7 @@ body{ /* Inicia bloco de estilos */
   margin:0; /* Ajusta margin */
   font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; /* Ajusta font-family */
   color:var(--text); /* Ajusta color */
-  background:radial-gradient(1200px 800px at 20% 0%, rgba(124,58,237,.35), transparent 60%), /* Ajusta background */
+  background:radial-gradient(1200px 800px at 20% 0%, #7c3aed59, transparent 60%), /* Ajusta background */
              radial-gradient(800px 600px at 90% 20%, rgba(236,72,153,.25), transparent 55%), /* Linha de estilo */
              linear-gradient(180deg, #05020b 0%, var(--bg) 60%, #05020b 100%); /* Linha de estilo */
   min-height:100vh; /* Ajusta min-height */
